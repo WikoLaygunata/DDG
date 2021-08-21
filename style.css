@@ -32,7 +32,7 @@ section::after {
   font-size: 18px;
 }
 
-.section1 {
+.section_html {
   padding: 80px 0px;
   width: 100%;
   background-color: #282a35;
@@ -100,10 +100,80 @@ section::after {
   width: 450px;
 }
 
-.section2 {
+.section_css {
   padding: 80px 0px;
   width: 100%;
   background-color: #d9eee1;
   color: black;
   margin: 16px 0;
+}
+
+.div_kiri_css {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#gambar_css {
+  content: url("https://images.pexels.com/photos/205316/pexels-photo-205316.png?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  width: 450px;
+}
+
+.div_kanan_css {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#css {
+  font-size: 100px;
+}
+
+#kalimat_css {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#link_css1 {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#link_css2 {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.footer {
+  text-align: center;
+  background-color: #282a35;
+  color: white;
+  padding: 40px 0;
 }
