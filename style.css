@@ -1,0 +1,104 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  margin: 40px 0;
+}
+
+.judul {
+  text-align: center;
+  color: #04aa6d;
+  font-size: 32px;
+}
+
+.sekolah {
+  text-align: center;
+  font-size: 18px;
+}
+
+.section1 {
+  padding: 80px 0px;
+  width: 100%;
+  background-color: #282a35;
+  color: white;
+  margin: 16px 0;
+}
+
+.div_kiri_html {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#html {
+  font-size: 100px;
+}
+#kalimat_html {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#link_html1 {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#link_html2 {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.div_kanan_html {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#gambar_html {
+  content: url("https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  width: 450px;
+}
+
+.section2 {
+}
